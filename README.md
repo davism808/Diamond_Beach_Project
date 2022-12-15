@@ -1,7 +1,7 @@
 # Diamond_Beach_Project
  OCN 682 final project and data set
 
-OPEN FINAL PROJECT IN DIAMOND BEACH PROJECT --> DIAMOND BEACH JUPYTER --> FINAL.PROJECT.Diamond.Beach
+## OPEN FINAL PROJECT AND DATA SET IN DIAMOND BEACH PROJECT --> DIAMOND BEACH JUPYTER --> FINAL.PROJECT.Diamond.Beach
 This project contains the cleaning and tidying process of our final project.
 
 This data set contains values of concentrations of UVF values (BP3 and OC). These concentrations were measured while the metadata contained is related to amount of people, tide information, and time of day.
