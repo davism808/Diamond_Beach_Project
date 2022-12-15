@@ -9,3 +9,9 @@ People per area had missing NA values certain times of day, and also had combine
 Concentrations/moon data had three separate sheets for each moon phase. The concentration values were not in one column with the appropriate moon phase. Using R commands, this data frame was arranged to have all the moon phases in one column with the relating concentration values in another column, also separated into BP3 and OC respectively.
 
 Tide data was combining pre and post tide numbers into one, as well as switching the units from meters to inches. This data was also listed first as an integer instead of a double. Using R commands, this data was separated back into post and pre tide columns, converted the units back to metric, as well as adjusting the character type for the tide measurement.
+
+Overall, our data set fits the FAIR standards:
+F: The code is findable, organized, and descriptive to show what each notebook does. All necessary files are within the working directory.
+A: The project is accessible to anyone on our public repository, available for download.
+I: Our code can be run using Jupyter notebook or R studio and is interchangeable between the two platforms.
+R: Dataset is well described with comments in its tidying process and analysis sections.
