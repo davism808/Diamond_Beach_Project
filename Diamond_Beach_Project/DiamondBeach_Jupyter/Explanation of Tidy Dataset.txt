@@ -1,0 +1,11 @@
+The original collection of this data set is tidy. This means each value has its own row and column, values and characters are not duplicated or combined. There are 13 total columns in this data set.
+
+This data set therefore was made untidy, in order for our group to become familiar with the concepts of tidying a data set as if it were collected 'messy'.
+
+The data set was split into three sections for each group member to mess up. People and moonphase, Tide/pretide/posttide, and concentrations/moon. 
+
+People per area had missing NA values certain times of day, and also had combined the counted number of people and per area column into one. Using R commands, the data was cleaned by replacing missing values with 0, and separating the two columns into their own separate columns.
+
+Concentrations/moon data had three separate sheets for each moon phase. The concentration values were not in one column with the appropriate moon phase. Using R commands, this data frame was arranged to have all the moon phases in one column with the relating concentration values in another column, also separated into BP3 and OC respectively.
+
+Tide data was combining pre and post tide numbers into one, as well as switching the units from meters to inches. This data was also listed first as an integer instead of a double. Using R commands, this data was separated back into post and pre tide columns, converted the units back to metric, as well as adjusting the character type for the tide measurement.
